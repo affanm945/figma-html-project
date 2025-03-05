@@ -1,0 +1,228 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  background: linear-gradient(252.56deg, #ffffff 0%, #ffffff 100.55%);
+}
+
+Section {
+  height: 100vh;
+}
+
+.hero-main {
+  height: 100%;
+}
+
+.hero-sec {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.top-left {
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  padding: 0 25px;
+}
+
+.hero-left {
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-testiminials {
+  width: 40%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background: url(../../assets/Mask-group.png);
+  gap: 15px;
+}
+
+.heading {
+  width: 100%;
+  position: relative;
+}
+
+.heading h1 {
+  width: 70%;
+}
+
+.hero-left-inner .head-img {
+  position: absolute;
+  width: 50px;
+  right: 42%;
+  bottom: 2px;
+}
+
+.hero-testiminials img {
+  width: 200px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.logo img {
+  width: 40px;
+  margin-right: 10px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #666;
+  font-weight: 500;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.description {
+  font-size: 18px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.students-info {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin-top: 20px;
+  height: 50px;
+  flex-direction: row;
+}
+
+.student-avatars {
+  position: relative;
+  height: 100%;
+}
+
+.students-info .student-avatars img {
+  border: 1px solid white;
+  width: 60px;
+  position: absolute;
+  z-index: 10;
+}
+
+.students-info .student-avatars img:nth-child(1) {
+  left: 60px;
+  z-index: 13;
+}
+
+.students-info .student-avatars img:nth-child(2) {
+  left: 35px;
+  z-index: 12;
+}
+
+.students-info h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.cta-buttons {
+  margin-top: 40px;
+  display: flex;
+  gap: 30px;
+}
+
+.book-seat {
+  background: #1a5130;
+  color: white;
+  padding: 20px 45px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 60.2px;
+}
+
+.see-journey {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-weight: 600;
+}
+
+.play-icon {
+  background: #ff7f50;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.statistics {
+  display: flex;
+  justify-content: center;
+  background: #ff8c40;
+  padding: 15px;
+  color: white;
+}
+
+.stat-item {
+  border-left: 2px solid #f7be2c;
+  text-align: center;
+  margin: 0 50px;
+  padding: 25px;
+  text-align: left;
+}
+
+.stat-item h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+.testimonial img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+}
